@@ -141,7 +141,7 @@ firedux.ref.child('live_events').on('value', (snapshot) => {
       }
     }
     // Always start with chat open
-    store.dispatch(setChatSidebarVisibility(true))
+    //store.dispatch(setChatSidebarVisibility(true))
     if (params.chat) {
       store.dispatch(setTwitchChat(params.chat))
     }
